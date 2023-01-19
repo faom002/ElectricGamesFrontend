@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+}
+
+.question-card {
+    background-image: url(../images/tetris.jpeg);
+    background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(26, 210, 252, 0.25) 0px 30px 60px -12px, rgba(47, 255, 252, 0.3) 0px 18px 36px -18px;
+    width: 80%;
+    height: auto;
+}
+
+ol {
+    list-style: none;
+}
+
+.li {
+    background-color: #171717;
+    padding: 16px;
+    border: 3px solid #2bfff1;
+    margin-top:8px;
+    font-size: 30px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.li:hover {
+    opacity: 0.9;
+}
+
+.question-text {
+    font-size: 24px;
+}
+
+.final-results{
+    background-color: gray;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    width: 80%;
+    height: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 520px) {
+    .question-text {
+        font-size: 16px;
+    }
+}
